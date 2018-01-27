@@ -51,6 +51,7 @@
 		1A041082201C5FFA00BF9D43 /* MyWorkPlaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyWorkPlaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A041086201C5FFA00BF9D43 /* MyWorkPlaceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWorkPlaceUITests.m; sourceTree = "<group>"; };
 		1A041088201C5FFA00BF9D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A041094201C602000BF9D43 /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +111,7 @@
 				1A04106D201C5FFA00BF9D43 /* LaunchScreen.storyboard */,
 				1A041070201C5FFA00BF9D43 /* Info.plist */,
 				1A041071201C5FFA00BF9D43 /* main.m */,
+				1A041094201C602000BF9D43 /* Location.gpx */,
 			);
 			path = MyWorkPlace;
 			sourceTree = "<group>";
@@ -431,7 +433,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CEW846XYSB;
 				INFOPLIST_FILE = MyWorkPlace/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = modong.MyWorkPlace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,7 +448,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CEW846XYSB;
 				INFOPLIST_FILE = MyWorkPlace/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = modong.MyWorkPlace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
